@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "quiz_platform.wsgi:application",
+      "src": "quiz_platform/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "quiz_platform.wsgi:application"
+      "dest": "quiz_platform/wsgi.py"
     }
   ]
 }

@@ -33,7 +33,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'quiz_platform.urls'
+ROOT_URLCONF = 'quiz_platform1.urls'
 
 TEMPLATES = [
     {
@@ -51,7 +51,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'quiz_platform.wsgi.application'
+WSGI_APPLICATION = 'quiz_platform1.wsgi.application'
 
 # SQLite базасы — кошумча драйверлерди (psycopg2) талап кылбайт
 DATABASES = {
